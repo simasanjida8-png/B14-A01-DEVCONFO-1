@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    text-align: center;
+ 
+}
+
+ ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 15px;
+   
+ }
+ ul a{
+    text-decoration: none;
+     color: #575757;
+    
+ }
+  nav div button {
+    padding: 16px 35px;
+    font-size: 15px;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 12px;
+  }
+  header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/banner.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  header div{
+    text-align: center;
+    color: white;
+   
+  }
+  /* .banner-tags{
+    position: relative;
+  } */
+  .banner-header{
+    font-size: 65px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* position: absolute; */
+    /* bottom: 170px; */
+    /* padding: Right 200px;  */
+    /* gap: 200px; */
+  }
+  .ptag{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+   .common-button{
+   padding: 16px 35px;
+    font-size: 15px;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    align-items: center;
+    margin-top: 300px;
+   }
+   .card-p{
+    text-align: center;
+    font-size:40px ;
+    padding:40px  ;
+   }
+   .card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    
+   }
+   /* .card-parent{
+    border-radius: 20px;
+   } */
+    
+  
+    .card-child img{
+      width: 100%;
+      display: block;   
+      border-radius:14px, 0px ;
+
+    }
+    
+    .child-info{
+      border-radius:14px, 0px ;
+      background-color: white;
+      border:1px solid rgb(238, 232, 232);
+      padding: 20px;
+    }
