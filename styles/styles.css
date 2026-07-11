@@ -227,7 +227,7 @@ footer div img{
 
 }
 .footerlo{
-  padding-left: 40px;
+  padding-left: 60px;
   padding-bottom: 40px;
 }
 .footer-p{
@@ -235,8 +235,8 @@ footer div img{
   font-size: 10px;
   /* padding-left: 40px; */
   gap: 10px;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 90px;
+  /* padding-bottom: 20px; */
   text-align: center;
   /* text-align: right; */
 }
@@ -274,7 +274,7 @@ hr{
 }
 .devconfo-header{
   padding-top:10px ;
-  padding-bottom: 4px;
+  padding-bottom: 13px;
   text-align: center;
   color: white;
 }
@@ -282,6 +282,8 @@ hr{
   text-align: center;
   padding-bottom:15px ;
  color: white;
+ font-size: 14px;
+ 
 }
 .parentt-card{ display: grid;
 grid-template-columns: repeat(5, 1fr);
@@ -363,7 +365,7 @@ background-color: rgb(239, 231, 231);
   text-align: center;
   padding-top: 10px;
   padding-bottom: 30px;
-  font-size: 15px;
+  font-size: 13px;
  }
  
  .sponser-card img{
