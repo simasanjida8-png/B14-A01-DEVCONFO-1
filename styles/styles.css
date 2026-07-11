@@ -204,3 +204,42 @@ nav{
 background-color: #2563EB;
 color: white;
 }
+footer{
+  background-color: #0D1B2A;
+}
+.top-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px 40px; */
+}
+.social-link{
+  padding-top: 50px;
+  padding-left:80px ;
+  
+}
+footer div a{
+  color: white;
+}
+footer div img{
+  padding-top: 50px;
+}
+.footer-p{
+  color: rgb(124, 124, 124);
+  font-size: 10px;
+  padding-right: 40px;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.bottom-part{
+  text-align: center;
+  color: #575757;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+hr{
+    height: 2px;
+    background-color: #4b5563;
+    border: none;
+}
