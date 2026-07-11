@@ -214,7 +214,7 @@ footer{
   /* padding: 20px 40px; */
 }
 .social-link{
-  padding-top: 5gi0px;
+  padding-top: 50px;
   padding-left:80px ;
   padding-bottom:30px ;
   
@@ -224,6 +224,8 @@ footer div a{
 }
 footer div img{
   padding-top: 50px;
+  
+
 }
 .footer-p{
   color: rgb(124, 124, 124);
@@ -243,4 +245,76 @@ hr{
     height: 2px;
     background-color: #4b5563;
     border: none;
+}
+.sention-subtitle{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap: 15px;
+  font-size: 10px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #2563EB;
+
+}
+.devconfo{ padding-top: 30px;
+  background-color: rgb(14, 11, 69);
+}
+.line{
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+ background-color: #2337a6;
+}
+.devconfo-header{
+  padding-top:10px ;
+  padding-bottom: 4px;
+  text-align: center;
+  color: white;
+}
+.devconfo-p{
+  text-align: center;
+  padding-bottom:15px ;
+ color: white;
+}
+.parentt-card{ display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 20px;
+width: 90%;
+padding-left: 80px;
+padding-bottom: 40px;
+}
+.card1{
+padding: 20px;
+ background:#305f94;
+border: 1px solid  #315984;
+border-radius: 12px;
+text-align: center;
+
+}
+.card1 i{
+  font-size: 30px;
+  margin-bottom: 15px;
+  color:#d7d9e3 ;
+}
+.card1 h3{
+  color: white;
+  margin: 10px 0;
+}
+.card1 p{
+  color: white;
+  font-size: 10px;
+  line-height: 1.6;
+}
+  
+.card-line{
+  width: 40px;
+  height: 2px;
+  background:#344a9f;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+.icons{
+  color: rgb(166, 239, 243);
 }
