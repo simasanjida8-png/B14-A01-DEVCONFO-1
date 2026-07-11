@@ -214,8 +214,9 @@ footer{
   /* padding: 20px 40px; */
 }
 .social-link{
-  padding-top: 50px;
+  padding-top: 5gi0px;
   padding-left:80px ;
+  padding-bottom:30px ;
   
 }
 footer div a{
@@ -230,7 +231,7 @@ footer div img{
   padding-right: 40px;
   gap: 10px;
   padding-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 .bottom-part{
   text-align: center;
